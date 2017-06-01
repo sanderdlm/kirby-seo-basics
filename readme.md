@@ -1,14 +1,14 @@
 # Kirby SEO basics
 
-This repository acts as a tiny guide (with certain files to help you out) to set up your Kirby site with basic SEO.
+This repository is a quickstart guide to set up your Kirby site with basic SEO.
 
 So far I've included the following:
 
-* Sitemap [credit](https://getkirby.com/docs/cookbook/xmlsitemap)
+* Sitemap [(credit)](https://getkirby.com/docs/cookbook/xmlsitemap)
 * Robots.txt
 * Open graph meta tags
 
-I have written a quickstart guide for each component.
+I have written a step-by-step for each component.
 
 ### Sitemap
 
@@ -61,7 +61,7 @@ og_image:
 
 You can now browse to <your-url>/panel/options and fill in your title, meta description and Open graph information.
 
-Once you've done this, copy the header.php snippet to your /snippets folder. If you don't want to override your own, make sure to add the following tags to yours:
+Once you've done this, copy the header.php snippet to your own snippets folder. If you don't want to override your own, make sure to add the following tags to yours:
 
 ```php
 <meta name="description" content="<?= $site->description()->html() ?>">
