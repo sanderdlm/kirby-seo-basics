@@ -1,0 +1,32 @@
+title: Site
+
+pages: default
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  author:
+    label: Author
+    type:  text
+
+  description:
+    label: Description
+    type:  textarea
+
+  og_title:
+    label: Open Graph title
+    type:  text
+
+  og_site_name:
+    label: Open Graph site name
+    type:  text
+
+  og_description:
+    label: Open Graph description
+    type:  textarea
+
+  og_image:
+    label: Open Graph image
+    type:  image
